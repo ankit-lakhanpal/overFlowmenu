@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <group android:checkableBehavior="single"> <!-- many items can be entered but only one will be selected-->
+
+        <item
+            android:id="@+id/Menu1"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/red_string" />  <!--enter values in String file to remove the errors-->
+
+        <item
+            android:id="@+id/Menu2"
+            android:orderInCategory="2"
+            app:showAsAction="never"
+            android:title="@string/green_string" />
+
+        <item
+            android:id="@+id/Menu3"
+            android:orderInCategory="3"
+            app:showAsAction="never"
+            android:title="@string/yellow_string" />
+
+        <item
+            android:id="@+id/Menu4"
+            android:orderInCategory="4"
+            app:showAsAction="never"
+            android:title="@string/pink_string" />
+
+    </group>
+
+
+
+
+
+</menu>
